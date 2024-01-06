@@ -1,0 +1,38 @@
+.home__section {
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+  background-image: url(../../assets/414332285_122094010532173160_3249094704866173198_n.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40rem;
+  position: relative;
+}
+
+.home__banner {
+  color: whitesmoke;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.home__secondary {
+  color: whitesmoke;
+  margin-bottom: 4rem;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.background__video {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 736px) {
+  .text-container {
+    padding-top: 10px;
+  }
+}
