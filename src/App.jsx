@@ -15,8 +15,9 @@ const App = () => {
           <Home />
           <Courses />
         </section>
+<BackToTopButton />
       </main>
-      <BackToTopButton />
+      
     </>
   );
 };
