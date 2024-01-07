@@ -4,6 +4,7 @@ import NavbarKana from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import "./index.css";
 import BackToTopButton from "./components/backtotop/BackToTopButton";
+import Courses from "./components/courses/Courses";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <main>
         <section id="home">
           <Home />
+          <Courses />
         </section>
       </main>
       <BackToTopButton />
