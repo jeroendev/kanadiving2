@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarKana from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import "./index.css";
+import BackToTopButton from "./components/backtotop/BackToTopButton";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Home />
         </section>
       </main>
+      <BackToTopButton />
     </>
   );
 };

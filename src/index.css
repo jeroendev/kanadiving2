@@ -10,3 +10,8 @@ body {
   background-color: #191d32;
   font-family: "Poppins", sans-serif;
 }
+
+.toTopImg {
+  width: 3rem;
+  height: auto;
+}

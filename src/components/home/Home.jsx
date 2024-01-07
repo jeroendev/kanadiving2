@@ -14,7 +14,10 @@ const Home = () => {
         <div className="row justify-content-center align-items-center">
           <div className="col-lg-6">
             <video className="background__video" autoPlay loop muted>
-              <source src="src\assets\KanaDivingVideo.mp4" type="video/mp4" />
+              <source
+                src="https://drive.google.com/uc?id=1PJE0FvBJcN0N39k8cN2FEbCXnMHGwKap"
+                type="video/mp4"
+              />
               Your browser does not support the video tag.
             </video>
           </div>

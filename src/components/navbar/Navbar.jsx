@@ -8,7 +8,11 @@ import "./navbar.css";
 
 function NavbarKana() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="custom__navbar navbar-dark">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      className="custom__navbar navbar-dark dropdown-menu-dark"
+    >
       <Container>
         <Navbar.Brand href="#home">
           <img className="navbar__img" src={logoImage} alt="KanaDiving logo" />
@@ -19,7 +23,11 @@ function NavbarKana() {
           <Nav className="me-auto">
             <Nav.Link href="#team">Ons team</Nav.Link>
             <Nav.Link href="#club">Duikclub</Nav.Link>
-            <NavDropdown title="Opleidingen" id="collapsible-nav-dropdown">
+            <NavDropdown
+              title="Opleidingen"
+              id="collapsible-nav-dropdown"
+              data-bs-theme="dark"
+            >
               <NavDropdown.Item href="#beginner">
                 Beginnerscursussen
               </NavDropdown.Item>
