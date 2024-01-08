@@ -5,6 +5,7 @@ import Home from "./components/home/Home";
 import "./index.css";
 import BackToTopButton from "./components/backtotop/BackToTopButton";
 import Courses from "./components/courses/Courses";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Home />
           <Courses />
         </section>
+        <Footer />
       </main>
       <BackToTopButton />
     </>
