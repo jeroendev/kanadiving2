@@ -18,6 +18,7 @@ const App = () => {
         </section>
         <Footer />
       </main>
+      <BackToTopButton />
     </>
   );
 };
