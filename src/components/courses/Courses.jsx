@@ -17,7 +17,7 @@ const Courses = () => {
             <a href="#beginner" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
-                  src="../../src/assets/Basisopleidingen-OWD.jpg"
+                  src="../img/Basisopleidingen-OWD.jpg"
                   className="card-img"
                   alt="PADI Basis opleidingen"
                 />
@@ -33,7 +33,7 @@ const Courses = () => {
             <a href="#advanced" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
-                  src="../../src/assets/rescue-diver-padi.jpg"
+                  src="../img/rescue-diver-padi.jpg"
                   className="card-img"
                   alt="PADI Advanced opleidingen"
                 />
@@ -49,7 +49,7 @@ const Courses = () => {
             <a href="#speciality" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
-                  src="../../src/assets/padi-wreck-diver.jpg"
+                  src="../img/padi-wreck-diver.jpg"
                   className="card-img"
                   alt="PADI Speciality opleidingen"
                 />
@@ -66,7 +66,7 @@ const Courses = () => {
             <a href="#tec" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
-                  src="../../src/assets/padi-tec-diver.jpg"
+                  src="../img/padi-tec-diver.jpg"
                   className="card-img"
                   alt="PADI TEC diver opleidingen"
                 />
@@ -82,7 +82,7 @@ const Courses = () => {
             <a href="#gopro" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
-                  src="../../src/assets/padi-gopro.jpg"
+                  src="../img/padi-gopro.jpg"
                   className="card-img"
                   alt="PADI TEC diver opleidingen"
                 />
@@ -98,7 +98,7 @@ const Courses = () => {
             <a href="#club" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
-                  src="../../src/assets/padi-duikclub.jpg"
+                  src="../img/padi-duikclub.jpg"
                   className="card-img"
                   alt="PADI duikclub KanaDiving"
                 />
