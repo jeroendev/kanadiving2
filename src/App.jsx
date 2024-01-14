@@ -6,20 +6,39 @@ import "./index.css";
 import BackToTopButton from "./components/backtotop/BackToTopButton";
 import Courses from "./components/courses/Courses";
 import Footer from "./components/footer/Footer";
+import BeginnerCourses from "./components/courses/BeginnerCourses";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import CourseDetails, {
+  discoverScubaDivingData,
+  openWaterDiverData,
+} from "./components/courses/CourseDetails";
 
 const App = () => {
   return (
-    <>
-      <NavbarKana />
-      <main>
-        <section id="home">
-          <Home />
-          <Courses />
-        </section>
-        <Footer />
-      </main>
-      <BackToTopButton />
-    </>
+    <Router>
+      <>
+        <NavbarKana />
+        <main>
+          <section id="home">
+            <Home />
+          </section>
+          <Routes>
+            <Route path="/" element={<Courses />} />
+            <Route path="/beginner" element={<BeginnerCourses />} />
+            <Route
+              path="/discover"
+              element={<CourseDetails {...discoverScubaDivingData} />}
+            />
+            <Route
+              path="/openwater"
+              element={<CourseDetails {...openWaterDiverData} />}
+            />
+          </Routes>
+          <Footer />
+        </main>
+        <BackToTopButton />
+      </>
+    </Router>
   );
 };
 

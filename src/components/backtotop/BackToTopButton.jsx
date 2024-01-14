@@ -28,7 +28,7 @@ const BackToTopButton = () => {
           style={{
             position: "fixed",
             bottom: "3rem",
-            right: "3rem",
+            right: "1rem",
             height: "50px",
             width: "50px",
             fontSize: "50px",

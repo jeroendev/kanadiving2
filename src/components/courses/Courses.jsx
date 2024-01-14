@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./courses.css";
 
 const Courses = () => {
   return (
-    <div className="container courses__container">
+    <div className="container courses__container" id="courses">
       <div className=" text-center">
         <h1>Opleidingen</h1>
         <h5 className=" mt-2 mb-4">
@@ -14,7 +15,7 @@ const Courses = () => {
       <div className=" text-center">
         <div className="row mb-4">
           <div className="col-md-4">
-            <a href="#beginner" className="card-link">
+            <Link to="/beginner" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
                   src="../img/Basisopleidingen-OWD.jpg"
@@ -27,10 +28,10 @@ const Courses = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-md-4">
-            <a href="#advanced" className="card-link">
+            <Link to="/advanced" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
                   src="../img/rescue-diver-padi.jpg"
@@ -43,10 +44,10 @@ const Courses = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-md-4">
-            <a href="#speciality" className="card-link">
+            <Link to="/speciality" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
                   src="../img/padi-wreck-diver.jpg"
@@ -59,11 +60,11 @@ const Courses = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
 
           <div className="col-md-4">
-            <a href="#tec" className="card-link">
+            <Link to="/tec" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
                   src="../img/padi-tec-diver.jpg"
@@ -76,10 +77,10 @@ const Courses = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-md-4">
-            <a href="#gopro" className="card-link">
+            <Link to="/gopro" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
                   src="../img/padi-gopro.jpg"
@@ -92,10 +93,10 @@ const Courses = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-md-4">
-            <a href="#club" className="card-link">
+            <Link to="/club" className="card-link">
               <div className="card bg-primary text-white mb-3">
                 <img
                   src="../img/padi-duikclub.jpg"
@@ -108,7 +109,7 @@ const Courses = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

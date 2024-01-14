@@ -6,3 +6,13 @@
 .card:hover {
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 992px) {
+  .course__img {
+    order: 0;
+    margin-bottom: 2rem;
+  }
+  .course__text {
+    order: 1;
+  }
+}

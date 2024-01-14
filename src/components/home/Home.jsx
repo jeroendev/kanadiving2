@@ -20,7 +20,7 @@ const Home = () => {
           </div>
           <div className=" col-lg-6 text-container">
             <h1>Laat ons je duikervaring onvergetelijk maken!</h1>
-            <p>
+            <p className=" text-secondary">
               Ontdek de betoverende schoonheid van de onderwaterwereld en laat
               je meeslepen door de fascinerende wereld van duiken. Duik in een
               onvergetelijke ervaring en laat ons je begeleiden op een reis vol
