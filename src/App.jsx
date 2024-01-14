@@ -7,6 +7,7 @@ import BackToTopButton from "./components/backtotop/BackToTopButton";
 import Courses from "./components/courses/Courses";
 import Footer from "./components/footer/Footer";
 import BeginnerCourses from "./components/courses/BeginnerCourses";
+import AdvancedCourses from "./components/courses/AdvancedCourses";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CourseDetails, {
   discoverScubaDivingData,
@@ -25,6 +26,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Courses />} />
             <Route path="/beginner" element={<BeginnerCourses />} />
+            <Route path="/advanced" element={<AdvancedCourses />} />
             <Route
               path="/discover"
               element={<CourseDetails {...discoverScubaDivingData} />}
