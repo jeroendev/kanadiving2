@@ -36,6 +36,48 @@ export const openWaterDiverData = {
   imageSrc: "../img/Basisopleidingen-OWD.jpg",
 };
 
+export const bubblemakerData = {
+  title: "Bubblemaker",
+  subtitle: "Start je duikavontuur!",
+  text1:
+    "Laat je kinderen meedoen aan dit duikavontuur. Dit programma is speciaal voor kinderen vanaf 8 jaar die nog nooit hebben gedoken. Ze leren over duiken in een veilige en gecontroleerde omgeving, doen leuke spelletjes onderwater en krijgen meer zelfvertrouwen in het water. Dit gebeurt onder direct toezicht van een PADI instructeur.",
+  text2:
+    "De kinderen krijgen aangepaste basisduikuitrusting, dit naar hun lichaamsbouw. Bubblemaker crewpack en certificeringskaart inbegrepen.",
+  additionalInfo: [
+    "Minimale leeftijd 8 jaar",
+    "Goedkeuring van de ouders",
+    "Inclusief verzekering tijdens de opleiding",
+  ],
+  imageSrc: "../img/padi-bubble.jpg",
+};
+
+export const reactivateData = {
+  title: "Reactivate",
+  subtitle: "Duik opfrissingscursus",
+  text1:
+    "Heb je wel een duikbrevet maar al een tijd niet gedoken en zou je wel wat training kunnen gebruiken? Een refresh is de ideale manier om je skills bij te werken en je duikkennis op te halen voordat je weer het buitenwater in gaat. Tijdens de zwembadsessie doe je verschillende oefeningen en krijg je het ‘onder water gevoel’ weer terug. Uiteraard komen ook de opbouw van je set en de voorbereiding voor de duik aan bod, onder leiding van een PADI professional. Heb je een brevet van SSI, NOB, IDD of een andere organisatie? Ook dan kun je uiteraard deelnemen aan een opfrisduik!",
+  text2:
+    "Waarom? Niet omdat het verplicht is, je PADI brevet verloopt immers nooit. Wél omdat het belangrijk is je training bij te houden, jij zelf wat training wilt hebben en je het belangrijk vindt goed voorbereid en veilig aan je volgende duik(vakantie) te beginnen. Ook een eventueel duikcentrum waar je gaat duiken vindt het prettig te weten dat je een reactivate cursus gedaan hebt omdat dit betekent dat je klaar bent om te gaan duiken. Bij deze opfrisduik is ook het online theoriepakket voor de PADI ReActivate Scuba Refresher Program inbegrepen, zo kun je ook de belangrijkste theorie eens herhalen voordat je weer het water in gaat.",
+  additionalInfo: [
+    "Minimale leeftijd 10 jaar",
+    "Exclusief gebruik van duikmaterialen, kan ter plaatse gehuurd worden",
+    "Inclusief PADI e-learning theoriepakket en logboek",
+    "De cursus duurt 1 avond",
+    "Deelname vereisten: Een PADI ( Junior ) Scuba Diver- brevet, of bewijs van een duikbrevet op beginnersniveau van een andere trainingsorganisatie. En 4 buitenwaterduiken hebben gemaakt.",
+  ],
+  imageSrc: "../img/padi-reactivate.jpg",
+};
+
+export const tecData = {
+  title: "TEC Diving",
+  subtitle: "Technisch duiken",
+  text1: "Al onze TEC duikopleidingen worden op maat gemaakt na afspraak.",
+  text2: "",
+
+  additionalInfo: [],
+  imageSrc: "../img/padi-tec-diver.jpg",
+};
+
 const CourseDetails = ({
   title,
   subtitle,

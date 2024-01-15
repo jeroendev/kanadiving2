@@ -95,22 +95,6 @@ const Courses = () => {
               </div>
             </Link>
           </div>
-          <div className="col-md-4">
-            <Link to="/club" className="card-link">
-              <div className="card bg-primary text-white mb-3">
-                <img
-                  src="../img/padi-duikclub.jpg"
-                  className="card-img"
-                  alt="PADI duikclub KanaDiving"
-                />
-                <div className="card-img-overlay d-flex flex-column justify-content-center">
-                  <div className="card-body text-center">
-                    <h5 className="card-title">Duikclub</h5>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
         </div>
       </div>
     </div>

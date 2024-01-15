@@ -8,10 +8,14 @@ import Courses from "./components/courses/Courses";
 import Footer from "./components/footer/Footer";
 import BeginnerCourses from "./components/courses/BeginnerCourses";
 import AdvancedCourses from "./components/courses/AdvancedCourses";
+import TecCourses from "./components/courses/TecCourses";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CourseDetails, {
+  bubblemakerData,
   discoverScubaDivingData,
   openWaterDiverData,
+  reactivateData,
+  tecData,
 } from "./components/courses/CourseDetails";
 
 const App = () => {
@@ -27,6 +31,7 @@ const App = () => {
             <Route path="/" element={<Courses />} />
             <Route path="/beginner" element={<BeginnerCourses />} />
             <Route path="/advanced" element={<AdvancedCourses />} />
+            <Route path="/tec" element={<TecCourses />} />
             <Route
               path="/discover"
               element={<CourseDetails {...discoverScubaDivingData} />}
@@ -35,6 +40,15 @@ const App = () => {
               path="/openwater"
               element={<CourseDetails {...openWaterDiverData} />}
             />
+            <Route
+              path="/bubblemaker"
+              element={<CourseDetails {...bubblemakerData} />}
+            />
+            <Route
+              path="/reactivate"
+              element={<CourseDetails {...reactivateData} />}
+            />
+            <Route path="/tecdiving" element={<CourseDetails {...tecData} />} />
           </Routes>
           <Footer />
         </main>

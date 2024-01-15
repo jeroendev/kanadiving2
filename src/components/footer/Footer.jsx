@@ -23,16 +23,20 @@ const Footer = () => {
                 <i class="bx bx-envelope"></i> Kanadivingschool@gmail.com
               </a>
             </p>
-            <p>Rek. nr: BE13 7370 3447 3439</p>
-            <p>BTW-nummer: 0480.433.971</p>
-          </div>
-          <div className="col-md-4">
             <p>
               <i class="bx bx-phone-call"></i> Karl: +32 476 99 22 14
             </p>
             <p>
               <i class="bx bx-phone-call"></i> Nancy: +32 477 34 52 83
             </p>
+          </div>
+          <div className="col-md-4">
+            <img
+              src="../img/DAN-logo.jpg"
+              alt="Diver Alert Network Europe logo"
+              className=" img-fluid"
+              style={{ maxHeight: "8rem" }}
+            />
           </div>
         </div>
         <hr className="mt-4" />
