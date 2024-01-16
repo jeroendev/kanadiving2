@@ -21,13 +21,13 @@ function NavbarKana() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#courses">Opleidingen</Nav.Link>
-            <Nav.Link href="#club">Duikclub</Nav.Link>
-            <Nav.Link href="#team">Ons team</Nav.Link>
+            <Nav.Link href="/courses">Opleidingen</Nav.Link>
+            <Nav.Link href="/club">Duikclub</Nav.Link>
+            <Nav.Link href="/team">Ons team</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#promoties">PROMOTIES</Nav.Link>
-            <Nav.Link eventKey={2} href="#contact">
+            <Nav.Link href="/promoties">PROMOTIES</Nav.Link>
+            <Nav.Link eventKey={2} href="/contact">
               Contact
             </Nav.Link>
           </Nav>

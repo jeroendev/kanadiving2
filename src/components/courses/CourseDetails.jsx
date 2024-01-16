@@ -71,7 +71,8 @@ export const reactivateData = {
 export const tecData = {
   title: "TEC Diving",
   subtitle: "Technisch duiken",
-  text1: "Al onze TEC duikopleidingen worden op maat gemaakt na afspraak.",
+  text1:
+    "Onze technische duikopleidingen worden steeds op maat gemaakt na afspraak. Wenst u een TEC opleiding te volgen? Contacteer ons en we bespreken wat de mogelijkheden/wensen zijn.",
   text2: "",
 
   additionalInfo: [],

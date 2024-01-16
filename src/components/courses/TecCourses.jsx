@@ -1,26 +1,28 @@
 import React from "react";
 import "./courses.css";
-import CourseCard from "./CourseCard";
+import Animation from "../Animation";
 
 const TecCourses = () => {
   return (
-    <div className="container text-center">
-      <div className="mt-4">
-        <h1>TEC Diving</h1>
-        <h5>Onze Tec opleidingen worden op maat gemaakt</h5>
-      </div>
+    <Animation>
+      <div className="container text-center">
+        <div className="mt-4">
+          <h1>TEC Diving</h1>
+          <h5>Onze Tec opleidingen worden op maat gemaakt</h5>
+        </div>
 
-      <div className="text-center">
-        <div className="row mb-4">
-          <CourseCard
-            to="/tecdiving"
-            imageSrc="../img/padi-tec-diver.jpg"
-            altText="PADI TEC diving"
-            title="Technisch duiken TEC"
-          />
+        <div className="text-center">
+          <div className="mb-5 mt-5">
+            <p>
+              Onze technische duikopleidingen worden steeds op maat gemaakt na
+              afspraak. Wenst u een TEC opleiding te volgen? Contacteer ons en
+              we bespreken wat de mogelijkheden/wensen zijn.
+            </p>
+            <button className="btn btn-danger w-25 mt-4">Contacteer ons</button>
+          </div>
         </div>
       </div>
-    </div>
+    </Animation>
   );
 };
 

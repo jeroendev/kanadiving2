@@ -1,10 +1,26 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useRef } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./courses.css";
 
 const Courses = () => {
+  // Create a ref for the courses container
+  const coursesRef = useRef(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    // Check if the navigation is from a link or direct access to "/courses"
+    if (
+      (location.state && location.state.scrollToCourses) ||
+      location.pathname === "/courses"
+    ) {
+      if (coursesRef.current) {
+        coursesRef.current.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location.state, location.pathname]);
+
   return (
-    <div className="container courses__container" id="courses">
+    <div className="container courses__container" ref={coursesRef}>
       <div className=" text-center">
         <h1>Opleidingen</h1>
         <h5 className=" mt-2 mb-4">

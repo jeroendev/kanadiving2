@@ -17,6 +17,7 @@ import CourseDetails, {
   reactivateData,
   tecData,
 } from "./components/courses/CourseDetails";
+import { AnimatePresence } from "framer-motion";
 
 const App = () => {
   return (
@@ -27,29 +28,31 @@ const App = () => {
           <section id="home">
             <Home />
           </section>
-          <Routes>
-            <Route path="/" element={<Courses />} />
-            <Route path="/beginner" element={<BeginnerCourses />} />
-            <Route path="/advanced" element={<AdvancedCourses />} />
-            <Route path="/tec" element={<TecCourses />} />
-            <Route
-              path="/discover"
-              element={<CourseDetails {...discoverScubaDivingData} />}
-            />
-            <Route
-              path="/openwater"
-              element={<CourseDetails {...openWaterDiverData} />}
-            />
-            <Route
-              path="/bubblemaker"
-              element={<CourseDetails {...bubblemakerData} />}
-            />
-            <Route
-              path="/reactivate"
-              element={<CourseDetails {...reactivateData} />}
-            />
-            <Route path="/tecdiving" element={<CourseDetails {...tecData} />} />
-          </Routes>
+          <AnimatePresence mode="wait">
+            <Routes>
+              <Route path="/" element={<Courses />} />
+              <Route path="/courses" element={<Courses />} />
+              <Route path="/beginner" element={<BeginnerCourses />} />
+              <Route path="/advanced" element={<AdvancedCourses />} />
+              <Route
+                path="/discover"
+                element={<CourseDetails {...discoverScubaDivingData} />}
+              />
+              <Route
+                path="/openwater"
+                element={<CourseDetails {...openWaterDiverData} />}
+              />
+              <Route
+                path="/bubblemaker"
+                element={<CourseDetails {...bubblemakerData} />}
+              />
+              <Route
+                path="/reactivate"
+                element={<CourseDetails {...reactivateData} />}
+              />
+              <Route path="/tec" element={<CourseDetails {...tecData} />} />
+            </Routes>
+          </AnimatePresence>
           <Footer />
         </main>
         <BackToTopButton />

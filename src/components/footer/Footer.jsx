@@ -10,7 +10,7 @@ const Footer = () => {
             <img
               src="../img/cropped-cropped-padi-5-star.jpg"
               alt="PADI 5 star dive center logo"
-              className="img-fluid"
+              className="img-fluid mt-2 mb-2"
               style={{ maxHeight: "8rem" }}
             />
           </div>
@@ -34,7 +34,7 @@ const Footer = () => {
             <img
               src="../img/DAN-logo.jpg"
               alt="Diver Alert Network Europe logo"
-              className=" img-fluid"
+              className=" img-fluid mt-2 mb-2"
               style={{ maxHeight: "8rem" }}
             />
           </div>
