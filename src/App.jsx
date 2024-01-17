@@ -11,10 +11,14 @@ import AdvancedCourses from "./components/courses/AdvancedCourses";
 import TecCourses from "./components/courses/TecCourses";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CourseDetails, {
+  advancedOWData,
   bubblemakerData,
   discoverScubaDivingData,
+  efrData,
+  msdData,
   openWaterDiverData,
   reactivateData,
+  rescueData,
   tecData,
 } from "./components/courses/CourseDetails";
 import { AnimatePresence } from "framer-motion";
@@ -51,6 +55,16 @@ const App = () => {
                 element={<CourseDetails {...reactivateData} />}
               />
               <Route path="/tec" element={<CourseDetails {...tecData} />} />
+              <Route
+                path="/aow"
+                element={<CourseDetails {...advancedOWData} />}
+              />
+              <Route
+                path="/rescuediver"
+                element={<CourseDetails {...rescueData} />}
+              />
+              <Route path="/efr" element={<CourseDetails {...efrData} />} />
+              <Route path="/msd" element={<CourseDetails {...msdData} />} />
             </Routes>
           </AnimatePresence>
           <Footer />
