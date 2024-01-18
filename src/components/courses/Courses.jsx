@@ -14,7 +14,10 @@ const Courses = () => {
       location.pathname === "/courses"
     ) {
       if (coursesRef.current) {
-        coursesRef.current.scrollIntoView({ behavior: "smooth" });
+        coursesRef.current.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
       }
     }
   }, [location.state, location.pathname]);
