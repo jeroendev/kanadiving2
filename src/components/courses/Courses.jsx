@@ -23,7 +23,7 @@ const Courses = () => {
   }, [location.state, location.pathname]);
 
   return (
-    <div className="container courses__container" ref={coursesRef}>
+    <div className="container" ref={coursesRef}>
       <div className=" text-center">
         <h1>Opleidingen</h1>
         <h5 className=" mt-2 mb-4">
