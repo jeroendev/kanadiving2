@@ -8,20 +8,26 @@ import Courses from "./components/courses/Courses";
 import Footer from "./components/footer/Footer";
 import BeginnerCourses from "./components/courses/BeginnerCourses";
 import AdvancedCourses from "./components/courses/AdvancedCourses";
-import TecCourses from "./components/courses/TecCourses";
+import SpecialityCourses from "./components/courses/SpecialityCourses";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CourseDetails, {
   advancedOWData,
+  assistantData,
   bubblemakerData,
   discoverScubaDivingData,
+  divemasterData,
   efrData,
+  instructorData,
   msdData,
   openWaterDiverData,
   reactivateData,
   rescueData,
   tecData,
+  wreckData,
 } from "./components/courses/CourseDetails";
 import { AnimatePresence } from "framer-motion";
+import GoProCourses from "./components/courses/GoProCourses";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   return (
@@ -35,9 +41,12 @@ const App = () => {
           <AnimatePresence mode="wait">
             <Routes>
               <Route path="/" element={<Courses />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="/courses" element={<Courses />} />
               <Route path="/beginner" element={<BeginnerCourses />} />
               <Route path="/advanced" element={<AdvancedCourses />} />
+              <Route path="/gopro" element={<GoProCourses />} />
+              <Route path="/speciality" element={<SpecialityCourses />} />
               <Route
                 path="/discover"
                 element={<CourseDetails {...discoverScubaDivingData} />}
@@ -65,6 +74,22 @@ const App = () => {
               />
               <Route path="/efr" element={<CourseDetails {...efrData} />} />
               <Route path="/msd" element={<CourseDetails {...msdData} />} />
+              <Route
+                path="/divemaster"
+                element={<CourseDetails {...divemasterData} />}
+              />
+              <Route
+                path="/assistant"
+                element={<CourseDetails {...assistantData} />}
+              />
+              <Route
+                path="/instructor"
+                element={<CourseDetails {...instructorData} />}
+              />
+              <Route
+                path="/wreckdiver"
+                element={<CourseDetails {...wreckData} />}
+              />
             </Routes>
           </AnimatePresence>
           <Footer />

@@ -148,6 +148,68 @@ export const msdData = {
   imageSrc: "../img/padi-master.jpg",
 };
 
+export const divemasterData = {
+  title: "PADI Divemaster",
+  subtitle: "Start je carrière!",
+  text1:
+    "Je breidt je duikkennis uit en je verfijnt je vaardigheden tot ze op professioneel niveau zijn. De PADI Divemaster-opleiding ontwikkelt je leidinggevende kwaliteiten, waardoor je gekwalificeerd wordt om toezicht te houden op duikactiviteiten en je instructeurs kunt assisteren met cursisten. PADI Divemaster zijn is een vereiste om deel te kunnen nemen aan de cursussen PADI Assistant Instructor en PADI Open Water Scuba Instructor. Als jij je bij de groep aansluit door PADI Divemaster te worden, sluit je je aan bij de grootste en meest gerespecteerde duikgroep van de wereld, namelijk die van PADI-professionals. Het gaat hier om PADI Divemasters en Instructors die allen een passie voor duiken hebben en actief begaan zijn met de gezondheid van de onderwaterwereld.",
+  text2:
+    "Wil jij jouw hartstochtelijke, niet aflatende passie voor duiken overbrengen op nieuwe en andere duikers? Of ben je op zoek naar de eerste carrièrestap de duikwereld in? Je avontuur op sportduikinstructeursniveau begint met het PADI Divemaster-programma. In dit programma werk je nauw samen met een PADI Instructor. Tijdens het PADI Divemaster-programma leer je via zowel klassikale les als zelfstudie leiderschapskwaliteiten voor de duiksport. Je rond watervaardigheden af en je uithoudingsvermogen wordt getest, en je doet trainingsoefeningen die je organisatietalent en probleemoplossend vermogen uitbreiden, en je helpt anderen om beter te leren duiken. Deze kennis breng je in de praktijk met een gestructureerde stage of een serie praktijkoefeningen. Tijdens je Divemaster-opleiding breid je je duikkennis uit, scherp je je vaardigheden aan en neemt je zelfvertrouwen toe. Als je eenmaal PADI Divemaster bent, zul je je verworven competenties aanwenden om andere duikers te begeleiden, te coachen en te stimuleren. Je zult het bijzonder leuk gaan vinden om hen betoverd te zien raken door de wondere onderwaterwereld.",
+  additionalInfo: [
+    "Minimale leeftijd 18 jaar",
+    "Houder zijn van PADI Advanced Open Water Diver en PADI Rescue Diver",
+    "Bij aanvang minstens 40 duiken hebben gelogd, op het einde van de opleiding 60 duiken",
+    "EFR Primary en Secondary Care hebben gevolgd binnen de voorgaande 24 maanden.",
+    "Minder dan 12 maanden geleden medisch gekeurd",
+  ],
+  imageSrc: "../img/padi-master.jpg",
+};
+
+export const assistantData = {
+  title: "PADI Assistant Instructor",
+  subtitle: "Deel je kennis!",
+  text1:
+    "PADI Open Water Scuba Instructors en PADI Assistant Instructors zijn de meest gevraagde duikprofessionals van de wereld omdat zij een opleidingsprogramma hebben afgerond dat wereldwijd de norm is voor de training van duikprofessionals. Je behaalt het PADI Instructor-brevet door toewijding en hard werken, maar de beloning is een baan waarbij je ongelooflijk mooie onderwateravonturen met anderen kunt delen – je zet hun leven, in positieve zin, op zijn kop en verrijkt die van jou zelf. Ben jij er klaar voor om je te voegen bij toegewijde duikprofessionals die de meest vooruitstrevende en populaire duikcursussen van de wereld geven? Volg dan de Instructor Development Course en Go PROSM(word duikprofessional).",
+  text2:
+    "De instructeursopleiding van PADI, oftewel de Instructor Development Course (IDC), bestaat uit twee onderdelen – de Assistant Instructor (AI)-cursus en het Open Water Scuba Instructor (OWSI)-programma. De meeste duikprofessionals volgen de gehele IDC waarna ze het instructeursexamen doen (Instructor Examination; IE), de laatste stap bij het behalen van het PADI Instructor-brevet. Als je met succes de AI-cursus afrondt behaal je het PADI Assistant Instructor-brevet. Als je er als AI klaar voor bent kun je het OWSI-programma volgen. Daarna volgt het IE om je uiteindelijk PADI Instructor-brevet te behalen. Duikprofessionals die een instructeursbrevet hebben van een andere trainingsorganisatie komen mogelijk in aanmerking om rechtstreeks in te stromen in het OWSI-programma. Hiermee wordt eerdere instructeurstraining erkend en wordt het mogelijk gemaakt om binnen redelijke tijd PADI Instructor te worden.",
+  additionalInfo: [
+    "Minimale leeftijd 18 jaar",
+    "Houder zijn van PADI Divemaster brevet alvorens te kunnen starten",
+  ],
+  imageSrc: "../img/padi-assistant-instructor.jpg",
+};
+
+export const instructorData = {
+  title: "PADI Open Water Instructor",
+  subtitle: "Word een echte duikprofessional!",
+  text1:
+    "Als je van het werken met mensen houdt, een passie hebt voor duiken en een heel bijzonder leven wilt leiden, word dan PADI Instructor. Door duikles te geven krijg je de kans om je liefde voor de waterwereld te delen met anderen terwijl je datgene doet waar je zoveel plezier aan beleeft – in en bij het water, en onder water. PADI Open Water Scuba Instructors en PADI Assistant Instructors zijn de meest gevraagde duikprofessionals ter wereld omdat zij een opleidingsprogramma hebben afgerond dat wereldwijd de norm is voor de training van duikprofessionals. Je behaalt het PADI Instructor-brevet door toewijding en hard werken, maar de beloning is een baan waarbij je ongelooflijk mooie onderwateravonturen met anderen kunt delen – je zet hun leven, in positieve zin, op zijn kop en verrijkt die van jou zelf. Ben jij er klaar voor om je te voegen bij toegewijde duikprofessionals die de meest vooruitstrevende en populaire duikcursussen van de wereld geven? Volg dan de Instructor Development Course en Go PROSM (word een duikprofessional).",
+  text2:
+    "De instructeursopleiding van PADI, oftewel de Instructor Development Course (IDC), bestaat uit twee onderdelen – de Assistant Instructor (AI)-cursus en het Open Water Scuba Instructor (OWSI)-programma. De meeste duikprofessionals volgen de gehele IDC waarna ze het instructeursexamen doen (Instructor Examination; IE), de laatste stap bij het behalen van het PADI Instructor-brevet. Als je met succes de AI-cursus afrondt behaal je het PADI Assistant Instructor-brevet. Als je er als AI klaar voor bent kun je het OWSI-programma volgen. Daarna volgt het IE om je uiteindelijk PADI Instructor-brevet te behalen. Duikprofessionals die een instructeursbrevet hebben van een andere trainingsorganisatie komen mogelijk in aanmerking om rechtstreeks in te stromen in het OWSI-programma. Hiermee wordt eerdere instructeurstraining erkend en wordt het mogelijk gemaakt om binnen redelijke tijd PADI Instructor te worden. Een PADI Divemaster die minimaal zes maanden al gebrevetteerd duiker is mag deelnemen aan de PADI-instructeursopleiding (IDC).",
+  additionalInfo: [
+    "Minimale leeftijd 18 jaar",
+    "EFR Primary en Secondary Care hebben gevolgd binnen de voorgaande 24 maanden.",
+    "Beschikken over een medische verklaring die in de afgelopen 12 maanden door een arts is ondertekend",
+    "Daarnaast moet je een Emergency First Response Instructor zijn maar dit brevet mag je ook behalen tijdens je instructeursopleiding.",
+    "Minimaal 60 gelogde duiken gemaakt hebben en 100 duiken als je aan het instructeursexamen deelneemt",
+  ],
+  imageSrc: "../img/padi-open-water-instructor.jpg",
+};
+
+export const wreckData = {
+  title: "PADI Wreck Diver",
+  subtitle: "Ontdek wrakken op de bodem",
+  text1:
+    "Of ze nu expres zijn afgezonken om als kunstmatig rif te dienen of dat ze het resultaat zijn van een ongeluk, wrakken laten je een fascinerende blik werpen op het verleden. Voor de meeste duikers zijn gezonken schepen, vliegtuigen en zelfs auto’s bijna onweerstaanbaar omdat het boeiend is om ze te verkennen, omdat ze spannende ontdekkingsmogelijkheden bieden en omdat ze vaak vol onderwaterleven zitten. In de PADI Wrakduiker-cursus leer je de fijne kneepjes van lonend, verantwoord wrakduiken. Leer hoe je veilig en verantwoord op wrakken kunt duiken door je aan te melden voor een PADIWreck Diver-cursus met Kana Diving",
+  text2: "",
+  additionalInfo: [
+    "Minimale leeftijd 15 jaar",
+    "In het bezit zijn van een Adventure of Open Water Diver brevet.",
+    "Exclusief duikmateriaal en toegangen",
+  ],
+  imageSrc: "../img/padi-open-water-instructor.jpg",
+};
+
 const CourseDetails = ({
   title,
   subtitle,
@@ -186,7 +248,9 @@ const CourseDetails = ({
             ))}
           </ul>
         </div>
-        <button className=" btn btn-danger mt-2 mb-5">Contacteer ons</button>
+        <a href="/contact" class="btn btn-danger mt-2 mb-5">
+          Contacteer ons
+        </a>
       </div>
     </Animation>
   );
