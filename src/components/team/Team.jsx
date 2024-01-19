@@ -59,16 +59,16 @@ const Team = () => {
           <img
             src="../img/karl.jpg"
             alt="Foto van Karl Schelfhout"
-            className=" img-fluid w-50"
+            className="rounded img-fluid"
           />
         </div>
       </div>
       <div className="row justify-content-center align-items-center mt-5">
-        <div className=" col-lg-4 text-center mb-3">
+        <div className=" col-lg-4 mx-auto text-center mb-3">
           <img
             src="../img/nancy.jpg"
             alt="Foto van Nancy Kerckaert"
-            className=" img-fluid w-50"
+            className="rounded img-fluid"
           />
         </div>
         <div className="col-lg-8">
