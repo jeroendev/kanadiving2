@@ -30,8 +30,9 @@ import GoProCourses from "./components/courses/GoProCourses";
 import Contact from "./components/contact/Contact";
 import Promotions from "./components/promotions/Promotions";
 import Team from "./components/team/Team";
+import Club from "./components/divingClub/DivingClub";
 
-const App = () => {
+function App() {
   return (
     <Router>
       <>
@@ -45,6 +46,7 @@ const App = () => {
               <Route path="/courses" element={<Courses />} />
               <Route path="/promoties" element={<Promotions />} />
               <Route path="/team" element={<Team />} />
+              <Route path="/club" element={<Club />} />
               <Route path="/beginner" element={<BeginnerCourses />} />
               <Route path="/advanced" element={<AdvancedCourses />} />
               <Route path="/gopro" element={<GoProCourses />} />
@@ -100,6 +102,6 @@ const App = () => {
       </>
     </Router>
   );
-};
+}
 
 export default App;
