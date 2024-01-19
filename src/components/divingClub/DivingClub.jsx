@@ -1,8 +1,28 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Club = () => {
+  // Create a ref for the contact container
+  const clubRef = useRef(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    // Check if the navigation is from a link or direct access to "/contact"
+    if (
+      (location.state && location.state.scrollToContact) ||
+      location.pathname === "/club"
+    ) {
+      if (clubRef.current) {
+        clubRef.current.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    }
+  }, [location.state, location.pathname]);
+
   return (
-    <div className="container pt-4 pb-4">
+    <div className="container pt-4 pb-4" ref={clubRef}>
       <div className=" text-center">
         <h1>Onze Club</h1>
         <h5 className=" mt-2 mb-4">Onderhoud je duikvaardigheden</h5>
