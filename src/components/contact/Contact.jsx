@@ -23,12 +23,12 @@ const Contact = () => {
   }, [location.state, location.pathname]);
 
   return (
-    <div className="container p-lg-5 pb-lg-5" ref={contactRef}>
+    <div className="container p-sm-4 pb-sm-4" ref={contactRef}>
       <div className=" text-center mb-4">
         <h1>Contacteer ons</h1>
       </div>
       <div className="row justify-content-center">
-        <div className=" col-md-6">
+        <div className=" col-lg-6">
           <form className="contact__form">
             <div className="contact__form-div mb-3">
               <label className="contact__form-tag small">Naam</label>

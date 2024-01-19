@@ -28,7 +28,7 @@ const Team = () => {
         <h5 className=" mt-2 mb-4">Maak kennis met ons team</h5>
       </div>
       <div className="row justify-content-center align-items-center">
-        <div className="col-lg-8">
+        <div className="col-lg-8 order-lg-1 order-2">
           <h3>Karl Schelfhout</h3>
           <h5 className=" mt-2 mb-4">Oprichter en echtgenoot van Nancy</h5>
           <p>
@@ -55,20 +55,20 @@ const Team = () => {
             <br /> gr Karl
           </p>
         </div>
-        <div className=" col-lg-4 text-center">
+        <div className=" col-lg-4 order-lg-2 order-1 text-center mb-3">
           <img
             src="../img/karl.jpg"
             alt="Foto van Karl Schelfhout"
-            className=" img-fluid"
+            className=" img-fluid w-50"
           />
         </div>
       </div>
       <div className="row justify-content-center align-items-center mt-5">
-        <div className=" col-lg-4 text-center">
+        <div className=" col-lg-4 text-center mb-3">
           <img
             src="../img/nancy.jpg"
             alt="Foto van Nancy Kerckaert"
-            className=" img-fluid"
+            className=" img-fluid w-50"
           />
         </div>
         <div className="col-lg-8">

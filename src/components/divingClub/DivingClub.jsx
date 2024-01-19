@@ -28,7 +28,7 @@ const Club = () => {
         <h5 className=" mt-2 mb-4">Onderhoud je duikvaardigheden</h5>
       </div>
       <div className="row justify-content-center align-items-center">
-        <div className=" col-lg-6 text-center">
+        <div className=" col-lg-6 order-lg-1 order-2 text-center">
           <h3>Word lid van onze duikclub</h3>
           <p>
             Hier vind je binnenkort meer informatie over onze duikclub. <br />
@@ -38,10 +38,12 @@ const Club = () => {
             Ons vaste huisrif is gelegen in de Nekker te Mechelen.
           </p>
           <a href="/contact">
-            <button className=" btn btn-danger mt-2">Contacteer ons</button>
+            <button className=" btn btn-danger mt-2 mb-4">
+              Contacteer ons
+            </button>
           </a>
         </div>
-        <div className=" col-lg-6">
+        <div className=" col-lg-6 order-lg-2 order-1 mb-2">
           <img
             src="../img/padi-duikclub.jpg"
             alt="Afbeelding van de duikclub"

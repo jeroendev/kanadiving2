@@ -7,12 +7,14 @@ const Footer = () => {
         <hr />
         <div className="row justify-content-center align-items-center">
           <div className="col-md-4">
-            <img
-              src="../img/cropped-cropped-padi-5-star.jpg"
-              alt="PADI 5 star dive center logo"
-              className="img-fluid mt-2 mb-2"
-              style={{ maxHeight: "8rem" }}
-            />
+            <a href="https://www.padi.com/dive-center/belgium/kana-diving/">
+              <img
+                src="../img/cropped-cropped-padi-5-star.jpg"
+                alt="PADI 5 star dive center logo"
+                className="img-fluid mt-2 mb-2"
+                style={{ maxHeight: "8rem" }}
+              />
+            </a>
           </div>
           <div className="col-md-4">
             <p>
@@ -55,12 +57,14 @@ const Footer = () => {
             </p>
           </div>
           <div className="col-md-4">
-            <img
-              src="../img/DAN-logo.jpg"
-              alt="Diver Alert Network Europe logo"
-              className=" img-fluid mt-2 mb-2"
-              style={{ maxHeight: "8rem" }}
-            />
+            <a href="https://www.daneurope.org/nl/home">
+              <img
+                src="../img/DAN-logo.jpg"
+                alt="Diver Alert Network Europe logo"
+                className=" img-fluid mt-2 mb-2"
+                style={{ maxHeight: "8rem" }}
+              />
+            </a>
           </div>
         </div>
         <hr className="mt-4" />

@@ -35,14 +35,13 @@ const Promotions = () => {
               Water, Advanced Open Water en Rescue Diver
             </li>
             <br />
-            <br />
             <li>
               Gratis initiatieduik op 5 en 12 maart 2024 (exlusief inkom
               zwembad)
             </li>
           </ul>
         </div>
-        <div className=" col-lg-6">
+        <div className=" col-lg-6 text-center">
           <img
             src="../img/nieuwjaaractie.jpg"
             alt="Nieuwjaarsactie KanaDiving afbeelding"
