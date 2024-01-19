@@ -37,9 +37,7 @@ const App = () => {
       <>
         <NavbarKana />
         <main>
-          <section id="home">
-            <Home />
-          </section>
+          <Home />
           <AnimatePresence mode="wait">
             <Routes>
               <Route path="/" element={<Courses />} />
