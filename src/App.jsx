@@ -28,6 +28,8 @@ import CourseDetails, {
 import { AnimatePresence } from "framer-motion";
 import GoProCourses from "./components/courses/GoProCourses";
 import Contact from "./components/contact/Contact";
+import Promotions from "./components/promotions/Promotions";
+import Team from "./components/team/Team";
 
 const App = () => {
   return (
@@ -43,6 +45,8 @@ const App = () => {
               <Route path="/" element={<Courses />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/courses" element={<Courses />} />
+              <Route path="/promoties" element={<Promotions />} />
+              <Route path="/team" element={<Team />} />
               <Route path="/beginner" element={<BeginnerCourses />} />
               <Route path="/advanced" element={<AdvancedCourses />} />
               <Route path="/gopro" element={<GoProCourses />} />

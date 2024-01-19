@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="text-white text-center">
       <div className="container py-4">
         <hr />
-        <div className="row">
+        <div className="row justify-content-center align-items-center">
           <div className="col-md-4">
             <img
               src="../img/cropped-cropped-padi-5-star.jpg"
@@ -24,10 +24,34 @@ const Footer = () => {
               </a>
             </p>
             <p>
-              <i class="bx bx-phone-call"></i> Karl: +32 476 99 22 14
+              <i className="bx bx-phone-call"></i> Karl:
+              <a
+                href="tel:+32477345283"
+                className="text-decoration-none text-white"
+              >
+                {" "}
+                +32 476 99 22 14
+              </a>
             </p>
             <p>
-              <i class="bx bx-phone-call"></i> Nancy: +32 477 34 52 83
+              <i className="bx bx-phone-call"></i> Nancy:
+              <a
+                href="tel:+32477345283"
+                className="text-decoration-none text-white"
+              >
+                {" "}
+                +32 477 34 52 83
+              </a>
+            </p>
+            <p>
+              <i className="bx bx-location-plus"></i>{" "}
+              <a
+                href="https://www.google.com/maps?q=Jagershoek+95,+Erembodegem"
+                target="_blank"
+                className="text-decoration-none text-white"
+              >
+                Jagershoek 95, 9320 Erembodegem
+              </a>
             </p>
           </div>
           <div className="col-md-4">
